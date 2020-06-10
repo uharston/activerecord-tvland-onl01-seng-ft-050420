@@ -9,8 +9,14 @@ class Actor < ActiveRecord::Base
   end
 
   def list_roles
-    #binding.pry
-    self.characters
+
+    array = []
+    x = 0
+    while x < characters.size
+      array <<  "#{characters[x].name} - #{shows[x].name}"
+      x += 1
+    end
+   array
   end
 
 end
