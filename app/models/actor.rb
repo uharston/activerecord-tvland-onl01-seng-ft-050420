@@ -19,6 +19,6 @@ class Actor < ActiveRecord::Base
   #  array
   # end
 
-  characters.map do 
+  characters.map do
 
 end
