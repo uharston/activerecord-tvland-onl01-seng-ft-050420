@@ -10,17 +10,15 @@ class Actor < ActiveRecord::Base
 
   def list_roles
 
-#     characters.collect do |character|
-#   "#{character.name} - #{character.show.name}"
-# end
+  #   array = []
+  #   x = 0
+  #   while x < characters.size
+  #     array <<  "#{characters[x].name} - #{shows[x].name}"
+  #     x += 1
+  #   end
+  #  array
+  # end
 
-    array = []
-    x = 0
-    while x < characters.size
-      array <<  "#{characters[x].name} - #{shows[x].name}"
-      x += 1
-    end
-   array
-  end
+  characters.map do 
 
 end
