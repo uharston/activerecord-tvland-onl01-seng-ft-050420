@@ -20,7 +20,7 @@ class Actor < ActiveRecord::Base
   # end
 
   characters.map do |c|
-   binding.pry
+    "#{c.name} - #{c.show.name}"
   end
 end
 
