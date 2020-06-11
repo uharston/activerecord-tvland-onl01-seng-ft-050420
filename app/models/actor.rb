@@ -22,5 +22,6 @@ class Actor < ActiveRecord::Base
   characters.map do |c| 
    binding.pry 
   end 
+end 
 
 end
