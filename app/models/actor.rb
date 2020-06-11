@@ -19,9 +19,9 @@ class Actor < ActiveRecord::Base
   #  array
   # end
 
-  characters.map do |c| 
-   binding.pry 
-  end 
-end 
+  characters.map do |c|
+   binding.pry
+  end
+end
 
 end
